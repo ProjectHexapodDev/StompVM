@@ -1,0 +1,5 @@
+---
+- apt: package=git-core
+
+- git: repo=https://github.com/ProjectHexapodDev/bbbStuff.git
+       dest=~/bbbstuff
